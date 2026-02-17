@@ -26,3 +26,19 @@ const bicycles = [
         weight: 8
     }
 ]
+
+// console.log(bicycles[0].weight);
+
+let minorBicycle = ''
+for (let i = 0; i < bicycles.length; i++) {
+    const bicycle = bicycles[i];
+    let minorWeight = bicycles[0].weight
+    //console.log(bicycle.weight);
+    if (bicycle.weight < minorWeight) {
+        minorWeight = bicycle.weight
+        minorBicycle = bicycle
+    }
+    
+}
+
+console.log(minorBicycle);
