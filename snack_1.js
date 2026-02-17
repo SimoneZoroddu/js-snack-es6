@@ -1,4 +1,4 @@
-console.log('funge');
+console.log('snack 1');
 
 const bicycles = [
     {
