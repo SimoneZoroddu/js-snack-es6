@@ -15,7 +15,7 @@ Generare numeri random
 --mathflor(random) ne servono 2
  al posto degli 0 nelle proprietà “punti” fatti e “falli subiti”
 --ciclare nell array e mettere un random in ogni points o fouls.
-Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console. ??? che vuol dire dove sono andati a finire i punti
+Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
 
 
 confermate lettura come al soltito

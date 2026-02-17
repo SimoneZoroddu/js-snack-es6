@@ -23,6 +23,7 @@ const championsLeague = [
     }
 ]
 
+const nameAndFouls = []
 
 for (let i = 0; i < championsLeague.length; i++) {
     const teams = championsLeague[i];
@@ -30,5 +31,9 @@ for (let i = 0; i < championsLeague.length; i++) {
     const randomFouls = Math.floor(Math.random() * 100) + 1;
     teams.points = randomPoints
     teams.fouls = randomFouls
-    console.log(championsLeague);
+    //console.log(championsLeague);
+
+    nameAndFouls.push(teams.name, teams.fouls)
 }
+
+console.log(nameAndFouls);
