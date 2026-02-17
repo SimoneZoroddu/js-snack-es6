@@ -23,3 +23,12 @@ const championsLeague = [
     }
 ]
 
+
+for (let i = 0; i < championsLeague.length; i++) {
+    const teams = championsLeague[i];
+    const randomPoints = Math.floor(Math.random() * 100) + 1;
+    const randomFouls = Math.floor(Math.random() * 100) + 1;
+    teams.points = randomPoints
+    teams.fouls = randomFouls
+    console.log(championsLeague);
+}
