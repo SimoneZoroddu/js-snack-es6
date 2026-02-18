@@ -32,8 +32,10 @@ for (let i = 0; i < championsLeague.length; i++) {
     teams.points = randomPoints
     teams.fouls = randomFouls
     //console.log(championsLeague);
-
-    nameAndFouls.push(teams.name, teams.fouls)
+   
+    const nameView = teams.name
+    const foulsView = teams.fouls
+    nameAndFouls.push({nameView, foulsView})
 }
 
 console.log(nameAndFouls);
